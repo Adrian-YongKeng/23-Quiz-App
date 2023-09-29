@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Quiz App</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Quiz App</h1>
+  <div>
+    <h3>1. What is the capital of Australia?</h3>
+    
+    <div>
+      <input type="radio" name="question1" value="Canberra">Canberra
+    </div>
+    <div>
+      <input type="radio" name="question1" value="Sydney">Sydney
+    </div>
+    <div>
+      <input type="radio" name="question1" value="Melbourne" >Melbourne
+    </div>
+    <div>
+      <input type="radio" name="question1" value="Brisbane" >Brisbane
+    </div>
+    <div id="resultEmoji1"></div>
+  </div>
+  
+  <div>
+    <h3>2. Which country has the highest population in 2023?</h3>
+    <div>
+      <input type="radio" name="question2" value="China">China
+    </div>
+    <div>
+      <input type="radio" name="question2" value="India">India
+    </div>
+    <div>
+      <input type="radio" name="question2" value="Russia">Russia
+    </div>
+    <div>
+      <input type="radio" name="question2" value="United States" >United States
+    </div>
+    <div id="resultEmoji2"></div>
+  </div>
+  
+  <div>
+    <h3>3. Which country has the largest land area in the world?</h3>
+    <div>
+      <input type="radio" name="question3" value="China">China
+    </div>
+    <div>
+      <input type="radio" name="question3" value="India">India
+    </div>
+    <div>
+      <input type="radio" name="question3" value="Russia" >Russia
+    </div>
+    <div>
+      <input type="radio" name="question3" value="United States">United States
+    </div>
+    <div id="resultEmoji3"></div>
+  </div>
+  
+  <div>
+    <h3>4. What is the largest ocean in the world?</h3>
+    <div>
+      <input type="radio" name="question4" value="Atlantic Ocean">Atlantic Ocean
+    </div>
+    <div>
+      <input type="radio" name="question4" value="Indian Ocean">Indian Ocean
+    </div>
+    <div>
+      <input type="radio" name="question4" value="Arctic Ocean">Arctic Ocean
+    </div>
+    <div>
+      <input type="radio" name="question4" value="Pacific Ocean">Pacific Ocean
+    </div>
+    <div id="resultEmoji4"></div>
+  </div>
+  
+  <div>
+    <h3>5. What is the currency of Mexico?</h3>
+    <div>
+      <input type="radio" name="question5" value="Peso">Peso
+    </div>
+    <div>
+      <input type="radio" name="question5" value="Euro">Euro
+    </div>
+    <div>
+      <input type="radio" name="question5" value="Dollar">Dollar
+    </div>
+    <div>
+      <input type="radio" name="question5" value="Yen">Yen
+    </div>
+    <div id="resultEmoji5"></div>
+  </div>
+
+  <button id="checkAnswer" onclick="checkAnswer()">Check Answers</button>
+   <button id="reset" onclick="reset()">Reset</button>
+  <div id="result"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
